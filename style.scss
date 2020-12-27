@@ -1,0 +1,255 @@
+$VeryDarkMagenta: hsl(300, 43%, 22%);
+$SoftPink: hsl(333, 80%, 67%);
+
+
+$DarkGrayishMagenta: hsl(303, 10%, 53%);
+$LightGrayishMagenta: hsl(300, 24%, 96%);
+$White: hsl(0, 0%, 100%);
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top 0px left -70px, top 500px left -300px;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container{
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.text{
+    width: 50%;
+    margin-right: 50px;
+    color: $VeryDarkMagenta;
+}
+
+.text h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 2.5em;
+    
+}
+
+.text p{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: .8em;
+    line-height: 18px;
+    
+}
+
+li{
+    display: flex;
+    flex-direction: row;   
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.rates{   
+    color: $VeryDarkMagenta;
+    font-weight: 700;
+    font-size: .7em; 
+}
+
+.reviews{
+    position: absolute;
+    right: 350px;
+    top: 155px;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    align-items: center;
+    background-color: $LightGrayishMagenta;
+    border-radius: 10px;   
+    padding-left: 25px;
+    padding-right: 70px;
+}
+
+.reviews p{
+    padding: 18px;
+}
+
+.reviews img{
+    padding: 4px;
+}
+
+.guru{
+    position: absolute;
+    right: 280px;
+    top: 215px;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    align-items: center;
+    background-color: $LightGrayishMagenta;
+    border-radius: 10px;   
+    padding-left: 25px;
+    padding-right: 70px;
+}
+
+.guru p{
+    padding: 18px;
+}
+
+.guru img{
+    padding: 4px;
+}
+
+.besttech{
+    position: absolute;
+    right: 210px;
+    top: 275px;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    align-items: center;
+    background-color: $LightGrayishMagenta;
+    border-radius: 10px;   
+    padding-left: 25px;
+    padding-right: 70px;
+}
+
+.besttech p{
+    padding: 18px;
+}
+
+.besttech img{
+    padding: 4px;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: row;
+}
+
+.profil{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    padding-left:25px;
+    line-height: 17px;    
+}
+
+.profil p{
+    color: $White;
+    font-weight: 700;
+    font-size: .7em;
+}
+
+.profil h3{
+    color: $SoftPink;
+    font-weight: 400;
+    font-size: .7em;
+}
+
+.testim{
+    align-items: center;
+    justify-items: center;
+    clear: both;
+    padding: 10px;
+    font-size:.7em;
+    color: $White;
+    line-height: 20px;   
+}
+
+.testi1{
+    width: 40%;
+    position: relative;
+    top: 50px;
+    background-color: $VeryDarkMagenta;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.testi1:hover{
+    transform: translateY(10px);
+    background-color: $LightGrayishMagenta;
+    p, .testim{
+        color: black;
+    }    
+}
+
+.testi1 img{
+    float: left;
+    border-radius: 100px;
+}
+
+.testi2{
+    width: 40%;
+    position: relative;
+    top: 70px;
+    background-color: $VeryDarkMagenta;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.testi2:hover{
+    transform: translateY(10px);
+    background-color: $LightGrayishMagenta;
+    p, .testim{
+        color: black;
+    }    
+}
+
+.testi2 img{
+    float: left;
+    border-radius: 100px;
+}
+
+.testi3{
+    width: 40%;
+    position: relative;
+    top: 90px;
+    background-color: $VeryDarkMagenta;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.testi3:hover{
+    transform: translateY(10px);
+    background-color: $LightGrayishMagenta;
+    p, .testim{
+        color: black;
+    }    
+}
+
+.testi3 img{
+    float: left;
+    border-radius: 100px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}

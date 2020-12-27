@@ -1,0 +1,247 @@
+/* line 9, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 15, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+body {
+  height: 100vh;
+  width: auto;
+  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+  background-position: top 0px left -70px, top 500px left -300px;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif; }
+
+/* line 25, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.container {
+  margin: 150px;
+  display: flex;
+  flex-direction: column; }
+
+/* line 31, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left; }
+
+/* line 38, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.text {
+  width: 50%;
+  margin-right: 50px;
+  color: #502050; }
+
+/* line 44, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.text h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 2.5em; }
+
+/* line 51, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.text p {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: .8em;
+  line-height: 18px; }
+
+/* line 59, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+li {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 10px; }
+
+/* line 69, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.rates {
+  color: #502050;
+  font-weight: 700;
+  font-size: .7em; }
+
+/* line 75, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.reviews {
+  position: absolute;
+  right: 350px;
+  top: 155px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 70px; }
+
+/* line 89, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.reviews p {
+  padding: 18px; }
+
+/* line 93, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.reviews img {
+  padding: 4px; }
+
+/* line 97, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.guru {
+  position: absolute;
+  right: 280px;
+  top: 215px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 70px; }
+
+/* line 111, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.guru p {
+  padding: 18px; }
+
+/* line 115, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.guru img {
+  padding: 4px; }
+
+/* line 119, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.besttech {
+  position: absolute;
+  right: 210px;
+  top: 275px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 70px; }
+
+/* line 133, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.besttech p {
+  padding: 18px; }
+
+/* line 137, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.besttech img {
+  padding: 4px; }
+
+/* line 141, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testimonials {
+  display: flex;
+  flex-direction: row; }
+
+/* line 146, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.profil {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  padding-left: 25px;
+  line-height: 17px; }
+
+/* line 155, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.profil p {
+  color: white;
+  font-weight: 700;
+  font-size: .7em; }
+
+/* line 161, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.profil h3 {
+  color: #ee68a4;
+  font-weight: 400;
+  font-size: .7em; }
+
+/* line 167, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testim {
+  align-items: center;
+  justify-items: center;
+  clear: both;
+  padding: 10px;
+  font-size: .7em;
+  color: white;
+  line-height: 20px; }
+
+/* line 177, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi1 {
+  width: 40%;
+  position: relative;
+  top: 50px;
+  background-color: #502050;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 1s; }
+
+/* line 189, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi1:hover {
+  transform: translateY(10px);
+  background-color: #f7f2f7; }
+  /* line 192, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+  .testi1:hover p, .testi1:hover .testim {
+    color: black; }
+
+/* line 197, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi1 img {
+  float: left;
+  border-radius: 100px; }
+
+/* line 202, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi2 {
+  width: 40%;
+  position: relative;
+  top: 70px;
+  background-color: #502050;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 1s; }
+
+/* line 214, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi2:hover {
+  transform: translateY(10px);
+  background-color: #f7f2f7; }
+  /* line 217, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+  .testi2:hover p, .testi2:hover .testim {
+    color: black; }
+
+/* line 222, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi2 img {
+  float: left;
+  border-radius: 100px; }
+
+/* line 227, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi3 {
+  width: 40%;
+  position: relative;
+  top: 90px;
+  background-color: #502050;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 1s; }
+
+/* line 239, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi3:hover {
+  transform: translateY(10px);
+  background-color: #f7f2f7; }
+  /* line 242, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+  .testi3:hover p, .testi3:hover .testim {
+    color: black; }
+
+/* line 247, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+.testi3 img {
+  float: left;
+  border-radius: 100px; }
+
+/* line 252, /Users/antoine/Desktop/Coding/Frontend Mentor/social-proof-section-master/style.scss */
+a {
+  outline: none;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
